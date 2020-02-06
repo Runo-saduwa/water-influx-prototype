@@ -6,8 +6,7 @@ import { Provider } from './Context';
 import {
 	BrowserRouter as Router,
 	Switch,
-	Route,
-	Link
+	Route
   } from "react-router-dom";
 class App extends Component {
 	render() {
@@ -17,6 +16,8 @@ class App extends Component {
                <Switch>
 			    <Provider>
 					<Route exact path="/" component={AddData}/>
+
+					
                  </Provider>
 			   </Switch>
 			</Router>
